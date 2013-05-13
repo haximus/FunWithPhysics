@@ -2,12 +2,19 @@ package com.haximus.fwp.environment;
 
 import java.util.ArrayList;
 
+import org.jbox2d.common.Vec2;
+import org.jbox2d.dynamics.World;
+
 public class EarthEnvironment implements Environment{
-	public static final double gravity = 9.80665;
 	private ArrayList<Object> objects;
-	
+
+	Vec2 gravity;
+	World world;
+
 	public EarthEnvironment(){
 		objects = new ArrayList<Object>();
+		gravity = new Vec2(0, (float) -9.80665);
+		world = new World(gravity);
 	}
 
 	public ArrayList<Object> getObjects() {
