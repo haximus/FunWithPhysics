@@ -2,7 +2,7 @@ package com.haximus.fwp.environment;
 
 import java.util.ArrayList;
 
-public class EarthEnvironment {
+public class EarthEnvironment implements Environment{
 	public static final double gravity = 9.80665;
 	private ArrayList<Object> objects;
 	

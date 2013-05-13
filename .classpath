@@ -6,5 +6,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre7/lib/jbox2d/jbox2d-library/target/jbox2d-library-2.2.1.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
