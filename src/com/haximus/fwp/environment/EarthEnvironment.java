@@ -25,4 +25,12 @@ public class EarthEnvironment implements Environment{
 		this.objects = objects;
 	}
 
+	public World getWorld() {
+		return world;
+	}
+
+	public void setWorld(World world) {
+		this.world = world;
+	}
+
 }
